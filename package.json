@@ -1,0 +1,17 @@
+{
+  "name": "wiki",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.ts",
+    "serve": "node serve.ts",
+    "dev": "node dev.ts"
+  },
+  "dependencies": {
+    "marked": "^15.0.12"
+  },
+  "devDependencies": {
+    "@types/node": "^25.9.3"
+  }
+}
